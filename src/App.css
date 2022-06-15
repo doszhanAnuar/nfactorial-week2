@@ -1,0 +1,59 @@
+img {
+  width: 40px;
+}
+.background-image {
+  margin: 0;
+  padding: 0;
+}
+.image-wrapper {
+  position: relative;
+}
+h1 {
+  position: absolute;
+  color: white;
+  font-family: "Fascinate Inline", cursive;
+}
+.img {
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+.img1 {
+  background: url("./sky.jpeg");
+  background-position: center;
+  background-size: auto 100%;
+}
+.img2 {
+  background: url("./lake.jpeg");
+  background-position: center;
+  background-size: auto 100%;
+}
+.img3 {
+  background: url("./mountain.jpeg");
+  background-position: center;
+  background-size: auto 100%;
+}
+.img4 {
+  background: url("./fox.jpeg");
+  background-position: center;
+  background-size: auto 100%;
+}
+.img5 {
+  background: url("./cloud.jpeg");
+  background-position: center;
+  background-size: auto 100%;
+}
+.format {
+  color: white; 
+}
+@media only screen and (max-width: 500px) {
+  .img {
+    background-size: 100% auto;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .background-image {
+    flex-direction: column;
+    height: 100vh;
+  }
+}
